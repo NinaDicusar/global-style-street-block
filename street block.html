@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Street Block</title>
+    <style>
+        body{
+            background-color: #223;
+        }
+        .street{
+          color: white;
+          border: 1px dotted red;
+        }
+        .house{
+         width: 150px;
+         display:inline-block;
+         margin-right: 20px;
+            
+        }
+        .house-roof{
+        width: 0px; 
+        height:10px; 
+         
+        border: 75px solid brown;
+        border-top-width: 0px;
+        border-left-color:transparent ;
+        border-right-color:transparent;
+        border-bottom-width: 90px;
+        
+        }
+        .house-wall{
+            background-color: antiquewhite;
+            width: 150px;
+            height: 150px;
+        }
+        .house-window{
+            border: 5px solid brown;
+            width: 50px;
+            height: 50px;
+            transform: translateX(45px) translateY(45px);
+        }
+        .line-horiz{
+            border-bottom:2px solid brown;
+            height: 25px;
+            margin-left: -4px;
+            margin-right: -4px;
+         }
+        .line-vertical{
+            border-right:2px solid brown;
+            width: 25px;
+            height: 25px;
+            }
+            .building-tall{
+            background-color: beige;
+            height: 300px;
+            width: 100px;
+            display:inline-block;
+            
+             }
+             .cloud{
+                display:inline-block ;
+                vertical-align: top;
+                padding-top: 20px;
+             }
+             .building-small{
+                background-color: aquamarine;
+                width: 50px;
+                height: 200px;
+                display:inline-block;
+                
+             }
+             .wind-one, .wind-two, .wind-tree, .wind-four{
+                border: 5px solid brown;
+            width: 50px;
+            height: 25px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            margin-top: 15px;
+            } 
+            .door{
+                border:5px solid brown;
+                width: 40px;
+                height: 70px;
+                margin-left: 25px;
+                margin-top: 20px;
+                }
+           
+
+    </style>
+</head>
+<body>
+    <div class="street">
+       
+       <div class="house">
+        <div class="house-roof"> </div>
+        <div class="house-wall"> 
+            <div class="house-window">
+                <div class="line-horiz"> </div>
+                <div class="line-vertical" ></div> 
+            </div>
+          </div>
+        </div> 
+         <div class="building-tall">
+            <div class="wind-one"></div>
+            <div class="wind-two"></div>
+            <div class="wind-tree"></div>
+            <div class="wind-four"></div>
+            <div class="door"></div>
+         </div>
+         <div class="cloud">
+            <img src="https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-12/64/cloud-icon.png" alt="cloud"></div>
+         <div class="building-small"></div>
+    </div>
+    
+</body>
+</html>
